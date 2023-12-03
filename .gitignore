@@ -1,0 +1,34 @@
+**/Debug/
+**/Debug_Win32/
+**/Debug_x64/
+**/Owner Debug/
+**/Release/
+**/Release_Win32/
+**/Release_x64/
+**/Owner Release/
+**/GeneratedFiles/
+**/db/
+**/Win32/
+**/x64/
+**/temp/
+**/temp_x64/
+**/bin/
+**/bin_x64/
+**/test_x64/
+**/descrDb/
+**/configData/
+**/packages/
+**/.vs/
+**/translations
+
+*.ini
+*.opensdf
+*.sdf
+*.suo
+*.vcxproj.user
+*.aps
+*.VC.db
+*.VC.VC.opendb
+*.vsp
+*.psess
+*.Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.3

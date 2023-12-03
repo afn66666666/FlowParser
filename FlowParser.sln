@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReceiverImpl", "ReceiverImpl\ReceiverImpl.vcxproj", "{DFEA90A5-5B71-47C3-95FC-4CD40F80A0A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{83D4DEE5-A340-4789-9EB1-A232277A071D}"
+	ProjectSection(SolutionItems) = preProject
+		Interfaces\ICallback.h = Interfaces\ICallback.h
+		Interfaces\IReceiver.h = Interfaces\IReceiver.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlowParserTests", "FlowParserTests\FlowParserTests.vcxproj", "{F9F0EF24-B1A7-42C9-9700-37D1FEF2F28C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFEA90A5-5B71-47C3-95FC-4CD40F80A0A6}.Debug|x64.ActiveCfg = Debug|x64
+		{DFEA90A5-5B71-47C3-95FC-4CD40F80A0A6}.Debug|x64.Build.0 = Debug|x64
+		{DFEA90A5-5B71-47C3-95FC-4CD40F80A0A6}.Debug|x86.ActiveCfg = Debug|Win32
+		{DFEA90A5-5B71-47C3-95FC-4CD40F80A0A6}.Debug|x86.Build.0 = Debug|Win32
+		{DFEA90A5-5B71-47C3-95FC-4CD40F80A0A6}.Release|x64.ActiveCfg = Release|x64
+		{DFEA90A5-5B71-47C3-95FC-4CD40F80A0A6}.Release|x64.Build.0 = Release|x64
+		{DFEA90A5-5B71-47C3-95FC-4CD40F80A0A6}.Release|x86.ActiveCfg = Release|Win32
+		{DFEA90A5-5B71-47C3-95FC-4CD40F80A0A6}.Release|x86.Build.0 = Release|Win32
+		{F9F0EF24-B1A7-42C9-9700-37D1FEF2F28C}.Debug|x64.ActiveCfg = Debug|x64
+		{F9F0EF24-B1A7-42C9-9700-37D1FEF2F28C}.Debug|x64.Build.0 = Debug|x64
+		{F9F0EF24-B1A7-42C9-9700-37D1FEF2F28C}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9F0EF24-B1A7-42C9-9700-37D1FEF2F28C}.Debug|x86.Build.0 = Debug|Win32
+		{F9F0EF24-B1A7-42C9-9700-37D1FEF2F28C}.Release|x64.ActiveCfg = Release|x64
+		{F9F0EF24-B1A7-42C9-9700-37D1FEF2F28C}.Release|x64.Build.0 = Release|x64
+		{F9F0EF24-B1A7-42C9-9700-37D1FEF2F28C}.Release|x86.ActiveCfg = Release|Win32
+		{F9F0EF24-B1A7-42C9-9700-37D1FEF2F28C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39D70066-726A-45D6-9D5A-9C32E390902C}
+	EndGlobalSection
+EndGlobal
